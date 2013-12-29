@@ -1,4 +1,4 @@
-Roll Your Own Framework Guide Part 2
+Roll Your Own Framework Guide Part 1
 ====================================
 
-This are files that match part two of the guide. To read the full article visit [this blog post](http://jamessteel.co.uk/blog/roll-your-own-framework-part-2 "Roll Your Own Framework Part 2").
+This is part one. There are no files, it's all theory at this stage. To read the full article visit [this blog post](http://jamessteel.co.uk/blog/roll-your-own-framework-overview "Roll Your Own Framework Overview").
