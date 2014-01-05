@@ -1,0 +1,22 @@
+// Libs
+@import "libs/normalize";
+
+// Partials
+@import "partials/helpers";
+
+// Grid
+@import "partials/grid";
+
+// Grid
+@import "partials/type";
+
+// Browser Fixes
+@import "partials/browsers";
+
+
+
+.type {@include container;
+	
+	.example {@include column(8);}
+	
+}
