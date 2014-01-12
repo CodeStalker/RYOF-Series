@@ -1,0 +1,16 @@
+// Framework
+@import "framework/framework";
+
+
+// Simple Example
+
+.example {@include container;
+	
+	div {@include column(3);}
+	
+	@include generate_grid_positions(div, 3);
+		
+}
+
+
+
