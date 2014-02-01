@@ -1,0 +1,50 @@
+// Framework
+@import "framework/framework";
+
+
+// Simple Grid Example
+
+.grid-example {@include container;@include clearfix();
+	
+	div {@include column(6);}
+	
+	@include generate_grid_positions(div, 6);
+		
+}
+
+.formwrap {
+	
+	@include container;
+	@include clearfix();
+
+
+	// Include the mixin
+	// ------------------------------------------------------------------------------------
+	
+	@include dlform (7rem,2rem);
+	
+	// Stack things up to 600px screen width
+	// ------------------------------------------------------------------------------------
+	
+	@media screen and (max-width: 600px) {
+		@include dlform-stack;
+	}
+	
+	// Optional - just a bit of presentational stuff
+	// ------------------------------------------------------------------------------------
+	
+	input[type=text],
+	input[type=password],
+	textarea,fieldset 				{border: 1px solid #ebebeb; color: #666;}
+	
+
+	
+	textarea:focus,					
+	input[type=text]:focus,
+	input[type=password]:focus 		{border: 1px solid #0d2643;}
+	
+
+
+}
+
+
